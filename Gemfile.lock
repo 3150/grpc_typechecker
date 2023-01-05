@@ -1,0 +1,53 @@
+PATH
+  remote: .
+  specs:
+    grpc_typechecker (0.1.1)
+      activesupport
+      grpc
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (7.0.4)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    concurrent-ruby (1.1.10)
+    diff-lcs (1.5.0)
+    google-protobuf (3.21.12)
+    googleapis-common-protos-types (1.5.0)
+      google-protobuf (~> 3.14)
+    grpc (1.50.0)
+      google-protobuf (~> 3.21)
+      googleapis-common-protos-types (~> 1.0)
+    i18n (1.12.0)
+      concurrent-ruby (~> 1.0)
+    minitest (5.17.0)
+    rake (13.0.6)
+    rspec (3.12.0)
+      rspec-core (~> 3.12.0)
+      rspec-expectations (~> 3.12.0)
+      rspec-mocks (~> 3.12.0)
+    rspec-core (3.12.0)
+      rspec-support (~> 3.12.0)
+    rspec-expectations (3.12.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-mocks (3.12.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-support (3.12.0)
+    tzinfo (2.0.5)
+      concurrent-ruby (~> 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  grpc_typechecker!
+  rake (~> 13.0)
+  rspec (~> 3.12)
+
+BUNDLED WITH
+   2.4.2
